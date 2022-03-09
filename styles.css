@@ -1,8 +1,8 @@
 :root {
   --primary-color: #c38586;
-  --secondary-color: #7184a1;
+  --secondary-color: #44626d;
   --third-color: #cb732a;
-  --fourth-color: #44626d;
+  --fourth-color: #7184a1;
 
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -28,6 +28,49 @@ h2 {
   padding-top: 50px;
 }
 
+.twoHeading {
+  height: 70px;
+  width: 514px;
+  left: 140px;
+  top: 1054px;
+  padding: 10px;
+  border-radius: nullpx;
+  font-family: Fredericka the Great;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.orange {
+  color: var(--third-color);
+}
+.lightOrange {
+  background-color: #fff6f0;
+}
+.orangeButton {
+  background: #cb732a;
+}
+.red {
+  color: var(--primary-color);
+}
+.lightRed {
+  background: #fff2f3;
+}
+.redButton {
+  background: var(--primary-color);
+}
+
+.blue {
+  color: var(--fourth-color);
+}
+.lightBlue {
+  background: #e3eaf0;
+}
+.blueButton {
+  background: var(--fourth-color);
+}
 h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -57,7 +100,6 @@ p {
 }
 
 .contact-link {
-  background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
@@ -118,7 +160,7 @@ html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("hero.png");
   height: 125%;
   background-position: center;
