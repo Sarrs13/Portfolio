@@ -1,6 +1,6 @@
 :root {
   --primary-color: #c38586;
-  --secondary-color: #44626d;
+  --secondary-color: #e0e9e8;
   --third-color: #cb732a;
   --fourth-color: #7184a1;
 
@@ -98,6 +98,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  padding-top: 20px;
 }
 
 .contact-link {
@@ -152,7 +153,9 @@ p {
   display: flex;
   width: "300px";
 }
-
+.headingPadding {
+  padding-top: 70px;
+}
 body,
 html {
   height: 100%;
@@ -193,4 +196,12 @@ html {
 .hero-text button:hover {
   background-color: #555;
   color: white;
+}
+.skills {
+  width: 50px;
+}
+
+.middle {
+  margin-left: auto;
+  margin-right: auto;
 }
